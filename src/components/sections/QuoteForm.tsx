@@ -65,8 +65,8 @@ export function QuoteForm({ t }: { t: Content }) {
             {/* Slanted top edge: a skewed cap over a straight base, so the
                 card reads taller on the left like the reference. */}
             <div aria-hidden className="pointer-events-none absolute inset-0">
-              <div className="absolute inset-x-0 top-0 h-14 origin-top-left skew-y-1 rounded-t-[28px] bg-brand-50" />
-              <div className="absolute inset-x-0 top-3 bottom-0 rounded-[28px] bg-brand-50" />
+              <div className="absolute inset-x-0 top-0 h-16 origin-top-left skew-y-2 rounded-t-[28px] bg-brand-50" />
+              <div className="absolute inset-x-0 top-6 bottom-0 rounded-[28px] bg-brand-50" />
             </div>
 
             <div className="relative p-7 sm:p-10">
@@ -148,7 +148,7 @@ export function QuoteForm({ t }: { t: Content }) {
               alt="Kometa Moving crew member carrying a box with the inventory checklist on top"
               width={900}
               height={1600}
-              className="h-[320px] w-full rounded-[28px] object-cover sm:h-[440px] lg:absolute lg:inset-x-0 lg:top-3 lg:h-[calc(100%-0.75rem)]"
+              className="h-[320px] w-full rounded-[28px] object-cover sm:h-[440px] lg:absolute lg:inset-x-0 lg:top-6 lg:h-[calc(100%-1.5rem)]"
             />
           </div>
         </div>
